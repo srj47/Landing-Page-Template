@@ -84,7 +84,7 @@ li {
     margin-inline: auto;
     padding: 5vw;
     min-width: 300px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .hero-baner .left h1 {
@@ -332,11 +332,16 @@ li {
     z-index: 1;
 }
 
-.section5 .box-container .slider .box .bold {
-    display: inline-block;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-align: center;
+.section5 .box-container .slider .box .profile {
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.section5 .box-container .slider .box .profile .stars {
+    display: flex;
+    margin-left: auto;
+    margin-top: 10px;
 }
 
 .section5 .box-container .slider .box p {
